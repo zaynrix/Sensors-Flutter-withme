@@ -30,7 +30,6 @@ class _MyAppState extends State<MyApp> {
   }
 
   void onStepCount(StepCount event) {
-    print(event);
     setState(() {
       _steps = event.steps.toString();
     });
