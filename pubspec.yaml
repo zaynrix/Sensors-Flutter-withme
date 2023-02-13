@@ -41,6 +41,3 @@ dev_dependencies:
 flutter:
   # the material Icons class.
   uses-material-design: true
-
-  # For details regarding fonts from package dependencies,
-  # see https://flutter.dev/custom-fonts/#from-packages
