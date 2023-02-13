@@ -29,19 +29,6 @@ class _MyAppState extends State<MyApp> {
     initPlatformState();
   }
 
-  // void nittt() async {
-  //   if (await Permission.activityRecognition.request().isGranted) {
-  //     _pedestrianStatusStream = Pedometer.pedestrianStatusStream;
-  //     _pedestrianStatusStream
-  //         .listen(onPedestrianStatusChanged)
-  //         .onError(onPedestrianStatusError);
-  //
-  //     _stepCountStream = Pedometer.stepCountStream;
-  //     _stepCountStream.listen(onStepCount).onError(onStepCountError);
-  //   } else {}
-  //   if (!mounted) return;
-  // }
-
   void onStepCount(StepCount event) {
     print(event);
     setState(() {
