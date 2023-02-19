@@ -98,6 +98,7 @@ class _MyAppState extends State<MyApp> {
                 'Pedestrian status:',
                 style: TextStyle(fontSize: 30),
               ),
+              //
               Icon(
                 _status == 'walking'
                     ? Icons.directions_walk
