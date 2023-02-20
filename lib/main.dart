@@ -4,10 +4,6 @@ import 'package:flutter/material.dart';
 import 'package:pedometer/pedometer.dart';
 import 'package:permission_handler/permission_handler.dart';
 
-String formatDate(DateTime d) {
-  return d.toString().substring(0, 19);
-}
-
 void main() {
   runApp(MyApp());
 }
